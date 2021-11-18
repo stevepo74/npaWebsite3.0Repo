@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*  ----------------------- BODY ------------------------- */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+}
+
+/*  --------------------- HEADER ------------------------- */
+header {
+  background-image: url("/images/bedge_grunge.png");
+  padding: 1rem;
+  height: 270px;
+}
+
+header .logo-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+header .logo-wrapper img {
+  width: 100%;
+}
+
+header ul#header-list {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+header ul#header-list li {
+  float: left;
+  width: 33.33%;
+  display: block;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 600;
+  color: #747272;
+}
+
+/*  ------------------ NAVIGATION --------------------- */
+nav {
+  background-color: #1f1d1d;
+  display: block;
+  width: 100%;
+}
+
+nav ul li {
+  float: left;
+  width: 33.33%;
+  border: 1px solid rgba(243, 242, 242, 0.3);
+}
+
+nav ul li:first-child {
+  border-left: none;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  padding: .5rem 0;
+  background-color: #494646;
+  color: #f8f6f6;
+  text-decoration: none;
+  -webkit-transition: background 0.75s ease, color 0.75s ease;
+  transition: background 0.75s ease, color 0.75s ease;
+}
+
+nav ul li.active a {
+  background-color: #a1a17d;
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: #d7d7c7;
+}
+
+/*  --------------------- MAIN ------------------------ */
+main figure.banner {
+  width: 100%;
+}
+
+main figure.banner img {
+  width: 100%;
+  border: solid 10px #04524b;
+  border-top: none;
+}
+
+section#contact {
+  background-color: #1da7e2;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contactaddress {
+  text-align: center;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin-top: 10px;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*  ----------------------- FOOTER --------------------------- */
+footer {
+  width: 100%;
+  background-color: #04524b;
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+  color: #ccccb8;
+  padding: .75rem 0;
+  font-size: .9rem;
+}
+
+footer p a {
+  color: #ccccb8;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (min-width: 35rem) {
+  /*  ----------------------- MAIN --------------------------- */
+  main figure.banner {
+    text-align: center;
+  }
+  main figure.banner img {
+    margin: 0 auto;
+    border: solid 20px #04524b;
+    border-top: none;
+  }
+  #mapwrapper {
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (min-width: 60rem) {
+  /*  ----------------------- BODY --------------------------- */
+  body {
+    padding: .5rem 0;
+  }
+  /*  ----------------------- NAVIGATION --------------------------- */
+  nav ul li {
+    width: auto;
+  }
+  nav ul li a {
+    padding: .5rem 3rem;
+  }
+  /* -------------------------- MAIN ------------------------------- */
+  main figure.banner {
+    margin-top: 35px;
+  }
+  main figure.banner img {
+    max-width: 60rem;
+    border: solid 30px #04524b;
+  }
+  main section {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  #contactaddress {
+    text-align: left;
+  }
+}

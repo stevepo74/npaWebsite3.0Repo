@@ -1,0 +1,163 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*  ----------------------- BODY ------------------------- */
+body {
+    font-family: $defaultFont;
+    font-weight: $normalWeight;
+    font-size: 16px;
+    margin: 0;
+    // min-width: 475px;
+    // width: 100vw;
+}
+
+
+/*  --------------------- HEADER ------------------------- */
+header {
+    // background: primaryColor;
+    background-image: url('/images/bedge_grunge.png');
+    // color: $secondaryColor;
+    padding: 1rem;
+    // margin-top: -8px;
+    height: 270px;
+
+    .logo-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+    }
+
+    .logo-wrapper img {
+        width: 100%;
+    }
+
+    ul#header-list {
+        list-style-type: none; 
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    ul#header-list li {
+        float: left;
+        width: 33.33%;
+        display: block;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 600;
+	    color: rgb(116, 114, 114);
+    }
+    
+} // end of header
+
+
+
+/*  ------------------ NAVIGATION --------------------- */
+nav {
+    background-color: rgb(31, 29, 29);
+    // border-bottom: 5px solid black;
+    // margin-top: 25px;
+    display: block;
+    width: 100%;
+    
+    
+    ul li {
+        float: left;
+        width: 33.33%;
+        border: 1px solid rgba(243, 242, 242, 0.3);
+    } // end of li
+    
+    ul li:first-child {border-left: none;}
+    
+    ul li a {
+        display: block;
+        text-align: center;
+        font-weight: $boldWeight;
+        padding: .5rem 0;
+        background-color: rgb(73, 70, 70);
+        color: rgb(248, 246, 246);
+        text-decoration: none;
+        transition: background 0.75s ease, color 0.75s ease;
+    } // end of anchors
+    
+    ul li.active a {
+        background-color: darken($secondaryColor, 20%);
+    } // end of active
+    
+    ul li a:hover {
+        color: black;
+        background-color: lighten($secondaryColor, 5%);
+    } // end hover
+    
+} // end nav
+
+
+/*  --------------------- MAIN ------------------------ */
+
+main {
+    figure.banner {
+        width: 100%;
+    }
+    figure.banner img {
+        width: 100%;
+        border: solid 10px $popColor; 
+        border-top: none;
+    }
+    // #staffwrapper {
+    //     margin-right: 25px;
+    // }
+}
+
+section#contact {
+    background-color: #1da7e2;
+    color: #fff;
+    align-items: center;
+    // margin: 50px auto;
+} 
+
+#contactaddress {
+    text-align: center;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-top: 10px;
+}
+
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*  ----------------------- FOOTER --------------------------- */
+footer {
+    width: 100%;
+    background-color: $popColor;
+    margin-top: 50px;
+    
+    p {
+        text-align: center;
+        color: $secondaryColor;
+        padding: .75rem 0;
+        font-size: .9rem;
+    } // end p
+    
+    p a {color: $secondaryColor;}
+    
+} // end footer
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import "reset";
+
+@import "variables";
+
+@import "small-default";
+
+@media only screen and (min-width: 35rem) {
+  @import "medium";   
+} // end media query
+
+@media only screen and (min-width: 60rem) {
+    @import "large";
+} // end media query
+
+// One advantage of using rems for breakpoints is that if you use the Zoom In on your browser, you'll eventually be able to see the small screen version displayed in a huge browser because the breakpoints have enlarged as the base font has enlarged.
