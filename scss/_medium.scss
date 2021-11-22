@@ -10,7 +10,22 @@ main {
         border-top: none; 
     }
 
+    #about-header {
+        font-size: 2rem;
+        font-weight: bold;
+    }
     
+    #about-parapraph {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color:rgb(97, 94, 94)
+    }
+
+    #meet {
+        font-size: 1.75rem;
+        font-weight: 600;
+    }
+
 } // end main
 
 #mapwrapper {

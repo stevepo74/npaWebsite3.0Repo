@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 /* 
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -203,12 +203,28 @@ main figure.banner img {
   border-top: none;
 }
 
+#about-header {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#about-parapraph {
+  font-size: 1.0rem;
+  font-weight: 600;
+  color: #615e5e;
+}
+
 section#contact {
   background-color: #1da7e2;
   color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#meet {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 #contactaddress {
@@ -265,6 +281,19 @@ footer p a {
     margin: 0 auto;
     border: solid 20px #04524b;
     border-top: none;
+  }
+  main #about-header {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  main #about-parapraph {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #615e5e;
+  }
+  main #meet {
+    font-size: 1.75rem;
+    font-weight: 600;
   }
   #mapwrapper {
     margin-top: 45px;

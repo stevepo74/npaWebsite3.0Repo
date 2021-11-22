@@ -93,7 +93,6 @@ nav {
     
 } // end nav
 
-
 /*  --------------------- MAIN ------------------------ */
 
 main {
@@ -110,12 +109,28 @@ main {
     // }
 }
 
+#about-header {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#about-parapraph {
+    font-size: 1.0rem;
+    font-weight: 600;
+    color:rgb(97, 94, 94)
+}
+
 section#contact {
     background-color: #1da7e2;
     color: #fff;
     align-items: center;
     // margin: 50px auto;
 } 
+
+#meet {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 
 #contactaddress {
     text-align: center;
