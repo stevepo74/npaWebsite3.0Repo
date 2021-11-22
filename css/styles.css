@@ -227,6 +227,17 @@ section#contact {
   font-weight: 600;
 }
 
+/* ADDED STYLE TO STAFF EMAIL LINKS */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
 #contactaddress {
   text-align: center;
 }
