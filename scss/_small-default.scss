@@ -177,7 +177,15 @@ footer {
         font-size: .9rem;
     } // end p
     
-    p a {color: $secondaryColor;}
+    p a:link {
+        color: $secondaryColor;
+        text-decoration: none;
+      }
+      
+     p a:hover {
+        color: white;
+          text-decoration: none;
+      }
     
 } // end footer
 

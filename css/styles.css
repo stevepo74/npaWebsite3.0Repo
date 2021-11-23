@@ -272,8 +272,14 @@ footer p {
   font-size: .9rem;
 }
 
-footer p a {
+footer p a:link {
   color: #ccccb8;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
