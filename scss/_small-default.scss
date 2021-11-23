@@ -49,6 +49,18 @@ header {
         font-weight: 600;
 	    color: rgb(116, 114, 114);
     }
+
+    #header-phone a:link {
+        color: rgb(116, 114, 114);
+        text-decoration: none;
+      }
+      
+    #header-phone a:hover {
+        color: rgb(175, 174, 174);
+          text-decoration: none;
+      }
+
+
     
 } // end of header
 
@@ -180,12 +192,12 @@ footer {
     p a:link {
         color: $secondaryColor;
         text-decoration: none;
-      }
+    }
       
-     p a:hover {
+    p a:hover {
         color: white;
           text-decoration: none;
-      }
+    }
     
 } // end footer
 

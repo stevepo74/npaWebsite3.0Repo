@@ -154,6 +154,16 @@ header ul#header-list li {
   color: #747272;
 }
 
+header #header-phone a:link {
+  color: #747272;
+  text-decoration: none;
+}
+
+header #header-phone a:hover {
+  color: #afaeae;
+  text-decoration: none;
+}
+
 /*  ------------------ NAVIGATION --------------------- */
 nav {
   background-color: #1f1d1d;
