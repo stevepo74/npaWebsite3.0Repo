@@ -322,6 +322,9 @@ footer p a:hover {
     font-size: 1.75rem;
     font-weight: 600;
   }
+  main #staffwrapper {
+    font-size: 1.2rem;
+  }
   #mapwrapper {
     margin-top: 45px;
   }

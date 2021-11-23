@@ -53,17 +53,14 @@ header {
     #header-phone a:link {
         color: rgb(116, 114, 114);
         text-decoration: none;
-      }
+    }
       
     #header-phone a:hover {
         color: rgb(175, 174, 174);
           text-decoration: none;
-      }
-
-
-    
+    }
+   
 } // end of header
-
 
 
 /*  ------------------ NAVIGATION --------------------- */
@@ -73,7 +70,6 @@ nav {
     // margin-top: 25px;
     display: block;
     width: 100%;
-    
     
     ul li {
         float: left;
