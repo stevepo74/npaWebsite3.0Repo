@@ -160,7 +160,7 @@ header #header-phone a:link {
 }
 
 header #header-phone a:hover {
-  color: #afaeae;
+  color: black;
   text-decoration: none;
 }
 
@@ -222,6 +222,16 @@ main figure.banner img {
   font-size: 1.0rem;
   font-weight: 600;
   color: #615e5e;
+}
+
+#about-parapraph a:link {
+  color: #615e5e;
+  text-decoration: none;
+}
+
+#about-parapraph a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 section#contact {
@@ -300,6 +310,10 @@ footer p a:hover {
 }
 
 @media only screen and (min-width: 35rem) {
+  /*---------- HEADER ----------*/
+  #header-list {
+    font-size: 1.2rem;
+  }
   /*  ----------------------- MAIN --------------------------- */
   main figure.banner {
     text-align: center;
@@ -334,6 +348,10 @@ footer p a:hover {
   /*  ----------------------- BODY --------------------------- */
   body {
     padding: .5rem 0;
+  }
+  /*---------- HEADER ----------*/
+  #header-list {
+    font-size: 1.4rem;
   }
   /*  ----------------------- NAVIGATION --------------------------- */
   nav ul li {
