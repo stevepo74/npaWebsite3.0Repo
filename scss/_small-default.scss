@@ -90,14 +90,16 @@ nav {
         transition: background 0.75s ease, color 0.75s ease;
     } // end of anchors
     
-    ul li.active a {
-        background-color: darken($secondaryColor, 20%);
-    } // end of active
-    
     ul li a:hover {
         color: black;
         background-color: lighten($secondaryColor, 5%);
     } // end hover
+
+    ul li.active a {
+        background-color: darken($secondaryColor, 20%);
+    } // end of active
+    
+    
     
 } // end nav
 

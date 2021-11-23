@@ -187,19 +187,19 @@ nav ul li a {
   font-weight: 700;
   padding: .5rem 0;
   background-color: #494646;
-  color: #f8f5f5;
+  color: white;
   text-decoration: none;
   -webkit-transition: background 0.75s ease, color 0.75s ease;
   transition: background 0.75s ease, color 0.75s ease;
 }
 
-nav ul li.active a {
-  background-color: #a1a17d;
-}
-
 nav ul li a:hover {
   color: black;
   background-color: #d7d7c7;
+}
+
+nav ul li.active a {
+  background-color: #a1a17d;
 }
 
 /*  --------------------- MAIN ------------------------ */
