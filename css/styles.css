@@ -359,6 +359,7 @@ footer p a:hover {
   }
   nav ul li a {
     padding: .5rem 3rem;
+    color: red;
   }
   /* -------------------------- MAIN ------------------------------- */
   main figure.banner {
