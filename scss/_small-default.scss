@@ -140,7 +140,9 @@ main {
     }
 }
 
-
+strong {
+    font-weight: bold;
+}
 
 section#contact {
     background-color: #1da7e2;
@@ -217,4 +219,8 @@ footer {
   content: "";
   display: table;
   clear: both;
+}
+
+strong {
+    font-weight: bold;
 }
