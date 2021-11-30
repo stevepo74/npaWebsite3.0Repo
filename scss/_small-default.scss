@@ -9,7 +9,6 @@ body {
     font-family: $defaultFont;
     font-weight: $normalWeight;
     font-size: 16px;
-    margin: 0;
     // min-width: 475px;
     // width: 100vw;
 }
@@ -20,8 +19,6 @@ header {
     // background: primaryColor;
     background-image: url('https://github.com/stevepo74/npaWebsite3.0Repo/blob/main/images/bedge_grunge.png?raw=true');
     // color: $secondaryColor;
-    padding: 1rem;
-    // margin-top: -8px;
     height: 270px;
 
     .logo-wrapper {
@@ -221,6 +218,3 @@ footer {
   clear: both;
 }
 
-strong {
-    font-weight: bold;
-}
