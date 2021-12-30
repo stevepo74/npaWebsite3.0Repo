@@ -101,6 +101,10 @@ input, select {
   vertical-align: middle;
 }
 
+strong {
+  font-weight: bold;
+}
+
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {
   -webkit-text-size-adjust: 100%;
@@ -118,13 +122,12 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 16px;
-  margin: 0;
+  min-width: 475px;
 }
 
 /*  --------------------- HEADER ------------------------- */
 header {
   background-image: url("https://github.com/stevepo74/npaWebsite3.0Repo/blob/main/images/bedge_grunge.png?raw=true");
-  padding: 1rem;
   height: 270px;
 }
 
@@ -232,6 +235,10 @@ main figure.banner img {
 #about-parapraph a:hover {
   color: black;
   text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
 }
 
 section#contact {
@@ -346,9 +353,6 @@ footer p a:hover {
 
 @media only screen and (min-width: 60rem) {
   /*  ----------------------- BODY --------------------------- */
-  body {
-    padding: .5rem 0;
-  }
   /*---------- HEADER ----------*/
   #header-list {
     font-size: 1.4rem;
