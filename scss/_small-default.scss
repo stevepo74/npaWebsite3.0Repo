@@ -9,6 +9,8 @@ body {
     font-family: $defaultFont;
     font-weight: $normalWeight;
     font-size: 16px;
+    // This min width seemed to fix the issue with email addresses not fitting
+    // on screen in mobile
     min-width: 475px;
     // width: 100vw;
 }
@@ -141,6 +143,7 @@ strong {
     font-weight: bold;
 }
 
+/*  ------------------CONTACT INFO------------------------ */
 section#contact {
     background-color: #1da7e2;
     color: #fff;
