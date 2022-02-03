@@ -134,6 +134,7 @@ header {
 header .logo-wrapper {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   max-width: 500px;
 }
 
@@ -242,7 +243,15 @@ strong {
 }
 
 /*  ------------------CONTACT INFO------------------------ */
-section#contact {
+#staff {
+  padding-top: 50px;
+}
+
+#contact {
+  padding-top: 30px;
+}
+
+#contact-wrapper {
   background-color: #1da7e2;
   color: #fff;
   -webkit-box-align: center;
