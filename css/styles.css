@@ -217,6 +217,16 @@ main figure.banner img {
   border-top: none;
 }
 
+#about {
+  background-color: yellow;
+}
+
+#about-container {
+  background-color: #f0eeee;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 #about-header {
   font-size: 1.4rem;
   font-weight: bold;
@@ -339,6 +349,10 @@ footer p a:hover {
     margin: 0 auto;
     border: solid 20px #04524b;
     border-top: none;
+  }
+  main #about-container {
+    padding-right: 100px;
+    padding-left: 100px;
   }
   main #about-header {
     font-size: 2rem;

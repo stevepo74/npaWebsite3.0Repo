@@ -114,12 +114,16 @@ main {
         border: solid 10px $popColor; 
         border-top: none;
     }
-    // #staffwrapper {
-    //     margin-right: 25px;
-    // }
+    
+}
+#about {
+    background-color: yellow;
 }
 
-#about {
+#about-container {
+    background-color: rgb(240, 238, 238);  
+    padding-right: 25px; 
+    padding-left: 25px; 
 }
 
 #about-header {
@@ -131,7 +135,7 @@ main {
     font-size: 1.0rem;
     font-weight: 600;
     color:rgb(97, 94, 94);
-
+    
     a:link {
         color: rgb(97, 94, 94);
         text-decoration: none;

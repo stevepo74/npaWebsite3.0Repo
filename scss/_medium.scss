@@ -16,6 +16,11 @@ main {
         border-top: none; 
     }
 
+    #about-container {  
+        padding-right: 100px; 
+        padding-left: 100px; 
+    }
+
     #about-header {
         font-size: 2rem;
         font-weight: bold;
@@ -41,3 +46,4 @@ main {
 #mapwrapper {
     margin-top: 45px;
 }
+
